@@ -1,0 +1,16 @@
+PODS:
+  - Polyglot-ios-sdk (0.1.0)
+
+DEPENDENCIES:
+  - Polyglot-ios-sdk (from `../`)
+
+EXTERNAL SOURCES:
+  Polyglot-ios-sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Polyglot-ios-sdk: fbc0451af1da692e4761507759ab44fc0435c547
+
+PODFILE CHECKSUM: 4b1e0d0be12e1512009e7c3a63dac6ecdd613528
+
+COCOAPODS: 1.9.3

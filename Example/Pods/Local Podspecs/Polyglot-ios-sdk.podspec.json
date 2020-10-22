@@ -1,0 +1,22 @@
+{
+  "name": "Polyglot-ios-sdk",
+  "version": "0.1.0",
+  "summary": "A short description of Polyglot-ios-sdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ricardo/Polyglot-ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ricardo": "ricardo@gaspardbruno.com"
+  },
+  "source": {
+    "git": "https://github.com/Ricardo/Polyglot-ios-sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Polyglot-ios-sdk/Classes/**/*"
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Polyglot-ios-sdk_Example' do
+  pod 'Polyglot-ios-sdk', :path => '../'
+
+  target 'Polyglot-ios-sdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
