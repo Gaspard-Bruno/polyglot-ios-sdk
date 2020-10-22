@@ -1,9 +1,9 @@
 {
   "name": "Polyglot-ios-sdk",
   "version": "0.1.0",
-  "summary": "A short description of Polyglot-ios-sdk.",
+  "summary": "Localizable handler for Polyglot",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Ricardo/Polyglot-ios-sdk",
+  "homepage": "https://github.com/Gaspard-Bruno/polyglot-ios-sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Ricardo": "ricardo@gaspardbruno.com"
   },
   "source": {
-    "git": "https://github.com/Ricardo/Polyglot-ios-sdk.git",
+    "git": "https://github.com/Gaspard-Bruno/polyglot-ios-sdk.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
   "source_files": "Polyglot-ios-sdk/Classes/**/*"
 }

@@ -7,72 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E4B1AE9E52E23550768AC243F85F4F8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD2659DCD49DBC223D1DD42D26379F /* ReplaceMe.swift */; };
+		0A091822889EF2F42C84DEF0A80C33B8 /* PolyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098F0F771C86670778599E1E58E855A6 /* PolyExtensions.swift */; };
 		134314EE3862CD19065727BA2C76B5F8 /* Pods-Polyglot-ios-sdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD33D2C1F50CBDA645F14AEFD4532631 /* Pods-Polyglot-ios-sdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2636530C689935944E317C5A457D0866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2A9353EC53A4E28B114B9DECC44F3761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3C21F590AEDA02738D3D3C09B9162822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4A10633E5F684D272F5961CA2E788060 /* Polyglot-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC5CACAC284B136CC33D9A9F91B601 /* Polyglot-ios-sdk-dummy.m */; };
 		5E370FFA7A359999AC8DE780B26527F5 /* Pods-Polyglot-ios-sdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A060869D1760F5C5CC21ED02EFC4D4A4 /* Pods-Polyglot-ios-sdk_Tests-dummy.m */; };
-		7A193287B556B3AFE4BEAAA08CB9808D /* Polyglot-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B39B7CDC3B501FB456B7B1DE95B7AFC8 /* Polyglot-ios-sdk-dummy.m */; };
-		7ADD6BBF268CDCAD37A68ABD4463D23F /* Polyglot-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E13C51ED4CEE5B4940FDC96A9969DF /* Polyglot-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66C66A12AB4F9424DBD9ECA7EE05114E /* Polyglot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B225A5D933A73476991ED4DF9EE59 /* Polyglot.swift */; };
+		66C6BDC1357043BB7A6B6094A621BAD4 /* Polyglot_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = EA107C530BC6598C8804BD6458408013 /* Polyglot_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CAC6A3AC7EE4FAD47FAD8271131B697 /* Polyglot-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 961392E15C5D668B16242D831C46A50C /* Polyglot-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D1CE3B2E8F32D6C935ACB8D0D627D2 /* Poly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93820A0A434BB0E35FA5AAFD8316F763 /* Poly.swift */; };
 		A3A531F57B78C9AE2C4C3B2BF151BC6B /* Pods-Polyglot-ios-sdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55653085CD145C7256A17D81D4A2D2CB /* Pods-Polyglot-ios-sdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C011B3298F1344D30AAF7915593E0FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF8CBBB647BEB77B852379CA07A0F62D /* Poly_String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC858CF0A46C819A6E4986937A1972FA /* Poly_String++.swift */; };
 		FB182922CBB624783E58A7BE5A93ACE1 /* Pods-Polyglot-ios-sdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106532437DECA533F9E8BD327887988 /* Pods-Polyglot-ios-sdk_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C6C33354E34D0F83108E42B89CE4DEF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB923817060D25036420B81A44218998;
-			remoteInfo = "Polyglot-ios-sdk";
-		};
-		99B38FF1679FE37BCE5E97B754734323 /* PBXContainerItemProxy */ = {
+		0A60FF03FA5DA3E299586BA3D5ACF882 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 690989060635D5259E5026CC0A07E900;
 			remoteInfo = "Pods-Polyglot-ios-sdk_Example";
 		};
+		36B2D9BBF9D0249A0652083B35971FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB923817060D25036420B81A44218998;
+			remoteInfo = "Polyglot-ios-sdk";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06FB548B08D40510752E852FDFA7CBEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		017B225A5D933A73476991ED4DF9EE59 /* Polyglot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyglot.swift; path = "Polyglot-ios-sdk/Classes/Polyglot.swift"; sourceTree = "<group>"; };
+		098F0F771C86670778599E1E58E855A6 /* PolyExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolyExtensions.swift; path = "Polyglot-ios-sdk/Classes/PolyExtensions.swift"; sourceTree = "<group>"; };
 		0EE37029E39D3999A567BFFEACBBFC10 /* Pods-Polyglot-ios-sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polyglot-ios-sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		10D64AEE612C4482602EE7EC590EA1A0 /* Pods_Polyglot_ios_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Polyglot_ios_sdk_Tests.framework; path = "Pods-Polyglot-ios-sdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D64AEE612C4482602EE7EC590EA1A0 /* Pods_Polyglot_ios_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polyglot_ios_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		134769AA75F7BDD010939ED448EF595A /* Pods-Polyglot-ios-sdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Polyglot-ios-sdk_Example.modulemap"; sourceTree = "<group>"; };
+		164CFFEF2177421A58161A8D83D82C61 /* Polyglot-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Polyglot-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		19E0F6604C4A943696090F1FFE9C0FD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1AAF4D99051EBC1A3C140C6462EABE02 /* Pods-Polyglot-ios-sdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polyglot-ios-sdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2CBF5EC3A4FDED5DB221BEE8410D027C /* Polyglot-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Polyglot-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3297DAC81BD206C96E7A219A2B94F880 /* Pods-Polyglot-ios-sdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polyglot-ios-sdk_Example-Info.plist"; sourceTree = "<group>"; };
 		34EA07F4D0CF14D788783F944C3FE960 /* Pods-Polyglot-ios-sdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polyglot-ios-sdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CFD2659DCD49DBC223D1DD42D26379F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "Polyglot-ios-sdk/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		4B8E8125056B28B042FE84FAB1132C77 /* Polyglot-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Polyglot-ios-sdk.modulemap"; sourceTree = "<group>"; };
 		55653085CD145C7256A17D81D4A2D2CB /* Pods-Polyglot-ios-sdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polyglot-ios-sdk_Example-umbrella.h"; sourceTree = "<group>"; };
-		62380D4343B0C47FA0EB6EB1AE7EEC96 /* Polyglot-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyglot-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		5FD6169AB97B2546E3E8E9055215FB34 /* Polyglot-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Polyglot-ios-sdk-Info.plist"; sourceTree = "<group>"; };
 		62BB6B8DEB20ED864DE51DB36201F8FF /* Pods-Polyglot-ios-sdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polyglot-ios-sdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		75B3F2E98677F8D60B93F96F6199FA3D /* Polyglot_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polyglot_ios_sdk.framework; path = "Polyglot-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B3F2E98677F8D60B93F96F6199FA3D /* Polyglot_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyglot_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6CC049C09BBF6B931EDD5259DC96A /* Pods-Polyglot-ios-sdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polyglot-ios-sdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		9106532437DECA533F9E8BD327887988 /* Pods-Polyglot-ios-sdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polyglot-ios-sdk_Example-dummy.m"; sourceTree = "<group>"; };
+		93820A0A434BB0E35FA5AAFD8316F763 /* Poly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly.swift; path = "Polyglot-ios-sdk/Classes/Poly.swift"; sourceTree = "<group>"; };
+		95B0FFC536A832C625306EE4F1E31D64 /* Polyglot-ios-sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "Polyglot-ios-sdk.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		961392E15C5D668B16242D831C46A50C /* Polyglot-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyglot-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
 		975F881AD79164D94BF5789BF14E8AD8 /* Pods-Polyglot-ios-sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polyglot-ios-sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C54C66DACC97A55F4385B0C255BA3B0 /* Pods-Polyglot-ios-sdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polyglot-ios-sdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD69503F7945FAD55B6C9E5024E9998 /* Pods-Polyglot-ios-sdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polyglot-ios-sdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A060869D1760F5C5CC21ED02EFC4D4A4 /* Pods-Polyglot-ios-sdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polyglot-ios-sdk_Tests-dummy.m"; sourceTree = "<group>"; };
-		B39B7CDC3B501FB456B7B1DE95B7AFC8 /* Polyglot-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyglot-ios-sdk-dummy.m"; sourceTree = "<group>"; };
-		B93CA121A861CEFD48F7F19EE4072B82 /* Polyglot-ios-sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Polyglot-ios-sdk.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BCF62219C99F0BF783713064E9902F22 /* Polyglot-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Polyglot-ios-sdk-Info.plist"; sourceTree = "<group>"; };
 		C38AF956307DDB958B7BEE5897EB473F /* Pods-Polyglot-ios-sdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Polyglot-ios-sdk_Tests.modulemap"; sourceTree = "<group>"; };
-		CD0BD3F964C61F472A34E12C8A170BFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D437A10F202FA18DED9F17A9FE3DEB7C /* Polyglot-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Polyglot-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
-		D4B5C676E9C2725DE5DB28A8E7D492E0 /* Polyglot-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Polyglot-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		D4367A61DBCBE410F230B099CFC32B65 /* Polyglot-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyglot-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
 		D83664B399C9324611A9E6792DF072FE /* Pods-Polyglot-ios-sdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polyglot-ios-sdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E0E13C51ED4CEE5B4940FDC96A9969DF /* Polyglot-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyglot-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
-		F10A4FC3A0BB509B8628E2C505CBDB8D /* Pods_Polyglot_ios_sdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Polyglot_ios_sdk_Example.framework; path = "Pods-Polyglot-ios-sdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC858CF0A46C819A6E4986937A1972FA /* Poly_String++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Poly_String++.swift"; path = "Polyglot-ios-sdk/Classes/Poly_String++.swift"; sourceTree = "<group>"; };
+		EA107C530BC6598C8804BD6458408013 /* Polyglot_sdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyglot_sdk.h; path = "Polyglot-ios-sdk/Classes/Polyglot_sdk.h"; sourceTree = "<group>"; };
+		EE758A1AAA01BF0AEC5617409AF7CFBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F10A4FC3A0BB509B8628E2C505CBDB8D /* Pods_Polyglot_ios_sdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polyglot_ios_sdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CBC218EE4E1F2638857869F765245E /* Pods-Polyglot-ios-sdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polyglot-ios-sdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCEC5CACAC284B136CC33D9A9F91B601 /* Polyglot-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyglot-ios-sdk-dummy.m"; sourceTree = "<group>"; };
 		FD33D2C1F50CBDA645F14AEFD4532631 /* Pods-Polyglot-ios-sdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polyglot-ios-sdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FFDED306ED5F1D538AA7B41E4A5447F9 /* Polyglot-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Polyglot-ios-sdk.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		19AE718D9CA13BA4429D408CBC0AB02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C21F590AEDA02738D3D3C09B9162822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C4C1602C1C0BB8247E378D73BA1344B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,40 +105,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA320BED8C017242EEA6A6F6CDA6CB67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C011B3298F1344D30AAF7915593E0FD1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		274F79009691A8FB6C68181F7C489FCE /* Pod */ = {
+		022BF15989F046CEE9C3376861FD7FAD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				06FB548B08D40510752E852FDFA7CBEF /* LICENSE */,
-				B93CA121A861CEFD48F7F19EE4072B82 /* Polyglot-ios-sdk.podspec */,
-				CD0BD3F964C61F472A34E12C8A170BFF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3F8BB4C3F2ABA3D4CCFBF0304934BEAF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FFDED306ED5F1D538AA7B41E4A5447F9 /* Polyglot-ios-sdk.modulemap */,
-				B39B7CDC3B501FB456B7B1DE95B7AFC8 /* Polyglot-ios-sdk-dummy.m */,
-				BCF62219C99F0BF783713064E9902F22 /* Polyglot-ios-sdk-Info.plist */,
-				62380D4343B0C47FA0EB6EB1AE7EEC96 /* Polyglot-ios-sdk-prefix.pch */,
-				E0E13C51ED4CEE5B4940FDC96A9969DF /* Polyglot-ios-sdk-umbrella.h */,
-				D4B5C676E9C2725DE5DB28A8E7D492E0 /* Polyglot-ios-sdk.debug.xcconfig */,
-				D437A10F202FA18DED9F17A9FE3DEB7C /* Polyglot-ios-sdk.release.xcconfig */,
+				4B8E8125056B28B042FE84FAB1132C77 /* Polyglot-ios-sdk.modulemap */,
+				FCEC5CACAC284B136CC33D9A9F91B601 /* Polyglot-ios-sdk-dummy.m */,
+				5FD6169AB97B2546E3E8E9055215FB34 /* Polyglot-ios-sdk-Info.plist */,
+				D4367A61DBCBE410F230B099CFC32B65 /* Polyglot-ios-sdk-prefix.pch */,
+				961392E15C5D668B16242D831C46A50C /* Polyglot-ios-sdk-umbrella.h */,
+				2CBF5EC3A4FDED5DB221BEE8410D027C /* Polyglot-ios-sdk.debug.xcconfig */,
+				164CFFEF2177421A58161A8D83D82C61 /* Polyglot-ios-sdk.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Polyglot-ios-sdk";
+			sourceTree = "<group>";
+		};
+		49521C07981CCD70BB4FF6DE3F20B791 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F13CCD0E8D4BFE2F0EF583C4A513758 /* Polyglot-ios-sdk */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4A8DAC34414D216A98193E0C53A3EC13 /* Pods-Polyglot-ios-sdk_Tests */ = {
@@ -141,12 +147,16 @@
 			path = "Target Support Files/Pods-Polyglot-ios-sdk_Tests";
 			sourceTree = "<group>";
 		};
-		4E8630B40958B24381157A836722D962 /* Polyglot-ios-sdk */ = {
+		5F13CCD0E8D4BFE2F0EF583C4A513758 /* Polyglot-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				3CFD2659DCD49DBC223D1DD42D26379F /* ReplaceMe.swift */,
-				274F79009691A8FB6C68181F7C489FCE /* Pod */,
-				3F8BB4C3F2ABA3D4CCFBF0304934BEAF /* Support Files */,
+				93820A0A434BB0E35FA5AAFD8316F763 /* Poly.swift */,
+				DC858CF0A46C819A6E4986937A1972FA /* Poly_String++.swift */,
+				098F0F771C86670778599E1E58E855A6 /* PolyExtensions.swift */,
+				017B225A5D933A73476991ED4DF9EE59 /* Polyglot.swift */,
+				EA107C530BC6598C8804BD6458408013 /* Polyglot_sdk.h */,
+				79551A23A8C5918E9857B6ACD585278F /* Pod */,
+				022BF15989F046CEE9C3376861FD7FAD /* Support Files */,
 			);
 			name = "Polyglot-ios-sdk";
 			path = ../..;
@@ -159,6 +169,16 @@
 				4A8DAC34414D216A98193E0C53A3EC13 /* Pods-Polyglot-ios-sdk_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79551A23A8C5918E9857B6ACD585278F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				19E0F6604C4A943696090F1FFE9C0FD3 /* LICENSE */,
+				95B0FFC536A832C625306EE4F1E31D64 /* Polyglot-ios-sdk.podspec */,
+				EE758A1AAA01BF0AEC5617409AF7CFBB /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		836970F36C5998C5570147AB6B3AC837 /* Pods-Polyglot-ios-sdk_Example */ = {
@@ -196,19 +216,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C55AC2133451424B4BB0880FAB6EE020 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4E8630B40958B24381157A836722D962 /* Polyglot-ios-sdk */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C55AC2133451424B4BB0880FAB6EE020 /* Development Pods */,
+				49521C07981CCD70BB4FF6DE3F20B791 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				AE9A4472EE372E77A8BDE7A28BAC36AF /* Products */,
 				753E6AE312D8341C7A0A843DD1452CAC /* Targets Support Files */,
@@ -234,19 +246,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BC5E2ACAFD2EFC9F008338A6E43B47D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAC6A3AC7EE4FAD47FAD8271131B697 /* Polyglot-ios-sdk-umbrella.h in Headers */,
+				66C6BDC1357043BB7A6B6094A621BAD4 /* Polyglot_sdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BC8FC39A2A553420912CC1A81B358EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A3A531F57B78C9AE2C4C3B2BF151BC6B /* Pods-Polyglot-ios-sdk_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB18B7A27B51017C42C364A91FB2E698 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7ADD6BBF268CDCAD37A68ABD4463D23F /* Polyglot-ios-sdk-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +278,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1FBA3EA41ACCBD4A7DA9B77FEC3A250B /* PBXTargetDependency */,
+				7294BB34D2647A6B6D516CBE843B4534 /* PBXTargetDependency */,
 			);
 			name = "Pods-Polyglot-ios-sdk_Tests";
 			productName = "Pods-Polyglot-ios-sdk_Tests";
@@ -284,7 +297,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4215146805B0A5B6ED30472CA2439E54 /* PBXTargetDependency */,
+				A059BC77072AA192FFB9B1CF4F4817E1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Polyglot-ios-sdk_Example";
 			productName = "Pods-Polyglot-ios-sdk_Example";
@@ -293,12 +306,12 @@
 		};
 		CB923817060D25036420B81A44218998 /* Polyglot-ios-sdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3487A97BC1C5CC2A6EF6E8054B3DAF5D /* Build configuration list for PBXNativeTarget "Polyglot-ios-sdk" */;
+			buildConfigurationList = 4BD30603987AEFEB2B56358C9355A387 /* Build configuration list for PBXNativeTarget "Polyglot-ios-sdk" */;
 			buildPhases = (
-				CB18B7A27B51017C42C364A91FB2E698 /* Headers */,
-				2A9F3C9CDFB4DDFA8F18D8783804ED31 /* Sources */,
-				CA320BED8C017242EEA6A6F6CDA6CB67 /* Frameworks */,
-				D984A63CE0CFF4B6F545BC7816D2367E /* Resources */,
+				8BC5E2ACAFD2EFC9F008338A6E43B47D /* Headers */,
+				509DBCBD0B12044ABBC4475876228907 /* Sources */,
+				19AE718D9CA13BA4429D408CBC0AB02B /* Frameworks */,
+				DEF619F26A79E484803C1E6E3A1C5024 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -316,7 +329,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CB923817060D25036420B81A44218998 = {
+						LastSwiftMigration = 1210;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -353,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D984A63CE0CFF4B6F545BC7816D2367E /* Resources */ = {
+		DEF619F26A79E484803C1E6E3A1C5024 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,12 +389,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A9F3C9CDFB4DDFA8F18D8783804ED31 /* Sources */ = {
+		509DBCBD0B12044ABBC4475876228907 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A193287B556B3AFE4BEAAA08CB9808D /* Polyglot-ios-sdk-dummy.m in Sources */,
-				0E4B1AE9E52E23550768AC243F85F4F8 /* ReplaceMe.swift in Sources */,
+				72D1CE3B2E8F32D6C935ACB8D0D627D2 /* Poly.swift in Sources */,
+				EF8CBBB647BEB77B852379CA07A0F62D /* Poly_String++.swift in Sources */,
+				0A091822889EF2F42C84DEF0A80C33B8 /* PolyExtensions.swift in Sources */,
+				4A10633E5F684D272F5961CA2E788060 /* Polyglot-ios-sdk-dummy.m in Sources */,
+				66C66A12AB4F9424DBD9ECA7EE05114E /* Polyglot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,119 +412,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1FBA3EA41ACCBD4A7DA9B77FEC3A250B /* PBXTargetDependency */ = {
+		7294BB34D2647A6B6D516CBE843B4534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Polyglot-ios-sdk_Example";
 			target = 690989060635D5259E5026CC0A07E900 /* Pods-Polyglot-ios-sdk_Example */;
-			targetProxy = 99B38FF1679FE37BCE5E97B754734323 /* PBXContainerItemProxy */;
+			targetProxy = 0A60FF03FA5DA3E299586BA3D5ACF882 /* PBXContainerItemProxy */;
 		};
-		4215146805B0A5B6ED30472CA2439E54 /* PBXTargetDependency */ = {
+		A059BC77072AA192FFB9B1CF4F4817E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Polyglot-ios-sdk";
 			target = CB923817060D25036420B81A44218998 /* Polyglot-ios-sdk */;
-			targetProxy = 2C6C33354E34D0F83108E42B89CE4DEF /* PBXContainerItemProxy */;
+			targetProxy = 36B2D9BBF9D0249A0652083B35971FAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		278C86115BE59B92B715F367D37F4AA9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 975F881AD79164D94BF5789BF14E8AD8 /* Pods-Polyglot-ios-sdk_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		727B077F9908854FEF1236593C958D99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B5C676E9C2725DE5DB28A8E7D492E0 /* Polyglot-ios-sdk.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk.modulemap";
-				PRODUCT_MODULE_NAME = Polyglot_ios_sdk;
-				PRODUCT_NAME = Polyglot_ios_sdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		951CB7EBE09C65EDC5190484135E571C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D437A10F202FA18DED9F17A9FE3DEB7C /* Polyglot-ios-sdk.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk.modulemap";
-				PRODUCT_MODULE_NAME = Polyglot_ios_sdk;
-				PRODUCT_NAME = Polyglot_ios_sdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -529,66 +453,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -614,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -627,11 +492,12 @@
 			};
 			name = Debug;
 		};
-		D225BE457D956A032E71454906427C60 /* Debug */ = {
+		1750C04FB86E18D30D550EA6B3295F4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62BB6B8DEB20ED864DE51DB36201F8FF /* Pods-Polyglot-ios-sdk_Example.debug.xcconfig */;
+			baseConfigurationReference = 975F881AD79164D94BF5789BF14E8AD8 /* Pods-Polyglot-ios-sdk_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -641,12 +507,79 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Example/Pods-Polyglot-ios-sdk_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Example/Pods-Polyglot-ios-sdk_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7626FE4CFFB0EA878852381FCDFFDB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBF5EC3A4FDED5DB221BEE8410D027C /* Polyglot-ios-sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = Polyglot_ios_sdk;
+				PRODUCT_NAME = Polyglot_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CE15583F3D685D6F29F3032FE0CD3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE37029E39D3999A567BFFEACBBFC10 /* Pods-Polyglot-ios-sdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -660,11 +593,12 @@
 			};
 			name = Debug;
 		};
-		E48A54A36FD6BCF0592676756FA81E1F /* Release */ = {
+		BA9198F7B214F1210AD86E0C174E7357 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C54C66DACC97A55F4385B0C255BA3B0 /* Pods-Polyglot-ios-sdk_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,7 +610,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Example/Pods-Polyglot-ios-sdk_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Example/Pods-Polyglot-ios-sdk_Example.modulemap";
@@ -694,11 +628,12 @@
 			};
 			name = Release;
 		};
-		F08419A1D60C1205E97B0153100C0755 /* Debug */ = {
+		D4768E39A7304609778CD6BCCA9AE179 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EE37029E39D3999A567BFFEACBBFC10 /* Pods-Polyglot-ios-sdk_Tests.debug.xcconfig */;
+			baseConfigurationReference = 62BB6B8DEB20ED864DE51DB36201F8FF /* Pods-Polyglot-ios-sdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,12 +643,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Example/Pods-Polyglot-ios-sdk_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Tests/Pods-Polyglot-ios-sdk_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Polyglot-ios-sdk_Example/Pods-Polyglot-ios-sdk_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -727,23 +662,107 @@
 			};
 			name = Debug;
 		};
+		E9D0D2BC37C3C5CFD6DF66FC5B0B3766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 164CFFEF2177421A58161A8D83D82C61 /* Polyglot-ios-sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyglot-ios-sdk/Polyglot-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = Polyglot_ios_sdk;
+				PRODUCT_NAME = Polyglot_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1224EEC826A9970A80848F084F4E7472 /* Build configuration list for PBXNativeTarget "Pods-Polyglot-ios-sdk_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D225BE457D956A032E71454906427C60 /* Debug */,
-				E48A54A36FD6BCF0592676756FA81E1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3487A97BC1C5CC2A6EF6E8054B3DAF5D /* Build configuration list for PBXNativeTarget "Polyglot-ios-sdk" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				727B077F9908854FEF1236593C958D99 /* Debug */,
-				951CB7EBE09C65EDC5190484135E571C /* Release */,
+				D4768E39A7304609778CD6BCCA9AE179 /* Debug */,
+				BA9198F7B214F1210AD86E0C174E7357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,8 +770,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD30603987AEFEB2B56358C9355A387 /* Build configuration list for PBXNativeTarget "Polyglot-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7626FE4CFFB0EA878852381FCDFFDB7D /* Debug */,
+				E9D0D2BC37C3C5CFD6DF66FC5B0B3766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,8 +788,8 @@
 		FD7835AB49C7B183E22BCD5B68BDA378 /* Build configuration list for PBXNativeTarget "Pods-Polyglot-ios-sdk_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F08419A1D60C1205E97B0153100C0755 /* Debug */,
-				278C86115BE59B92B715F367D37F4AA9 /* Release */,
+				7CE15583F3D685D6F29F3032FE0CD3F4 /* Debug */,
+				1750C04FB86E18D30D550EA6B3295F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

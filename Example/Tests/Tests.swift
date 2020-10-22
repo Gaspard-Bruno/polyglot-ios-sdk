@@ -1,5 +1,4 @@
 import XCTest
-import Polyglot-ios-sdk
 
 class Tests: XCTestCase {
     

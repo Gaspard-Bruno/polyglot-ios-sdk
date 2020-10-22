@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Polyglot-ios-sdk: fbc0451af1da692e4761507759ab44fc0435c547
+  Polyglot-ios-sdk: 4b4a13001fd08f5d7cb773e5abdb8615c28e5178
 
 PODFILE CHECKSUM: 4b1e0d0be12e1512009e7c3a63dac6ecdd613528
 

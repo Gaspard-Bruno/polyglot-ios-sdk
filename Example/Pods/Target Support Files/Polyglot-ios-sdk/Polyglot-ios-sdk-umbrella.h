@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Polyglot_sdk.h"
 
 FOUNDATION_EXPORT double Polyglot_ios_sdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char Polyglot_ios_sdkVersionString[];
