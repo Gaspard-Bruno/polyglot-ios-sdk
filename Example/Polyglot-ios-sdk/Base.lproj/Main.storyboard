@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Translation " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I71-yT-feI">
-                                <rect key="frame" x="55" y="140" width="88" height="21"/>
+                                <rect key="frame" x="55" y="140" width="88" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,17 +33,75 @@
                                     <action selector="updateTranslation:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2I3-5E-cWA"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="qt5-hL-DwV">
+                                <rect key="frame" x="112.5" y="416" width="150" height="105"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMX-Xl-3sh">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="French" image="fr">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="translateToFrench:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FF4-QJ-cJy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwM-L6-Q6X">
+                                        <rect key="frame" x="0.0" y="29" width="150" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="English" image="en-uk">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="translateToEnglish:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9FU-Y6-ruv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Om-J0-jOj">
+                                        <rect key="frame" x="0.0" y="58" width="150" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Spanish" image="es">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="translateToSpanish:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HzT-wP-6Db"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqf-2y-86h">
+                                        <rect key="frame" x="0.0" y="87" width="150" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Portuguese" image="pt">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="translateToPortuguese:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BzD-0h-MSB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="wsc-2a-h6f"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="I71-yT-feI" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="140" id="16W-rJ-yD4"/>
                             <constraint firstItem="I71-yT-feI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="39" id="HdR-m3-K7L"/>
+                            <constraint firstItem="qt5-hL-DwV" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="L0t-wN-b3T"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="I71-yT-feI" secondAttribute="trailing" id="bZB-1F-8dH"/>
+                            <constraint firstItem="CTm-hI-pv3" firstAttribute="top" secondItem="qt5-hL-DwV" secondAttribute="bottom" constant="56" id="dYv-zB-0Jw"/>
                             <constraint firstItem="CTm-hI-pv3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qXa-Vg-wRt"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="CTm-hI-pv3" secondAttribute="bottom" constant="60" id="yFJ-64-pR9"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="englishButton" destination="rwM-L6-Q6X" id="uHM-C0-qRb"/>
+                        <outlet property="frenchButton" destination="uMX-Xl-3sh" id="jCM-Uy-gP3"/>
+                        <outlet property="portugueseButton" destination="kqf-2y-86h" id="Z1D-oC-MEi"/>
+                        <outlet property="spanishButton" destination="6Om-J0-jOj" id="RCd-80-Rmv"/>
                         <outlet property="translationLabel" destination="I71-yT-feI" id="20J-du-o6s"/>
                     </connections>
                 </viewController>
@@ -51,4 +110,13 @@
             <point key="canvasLocation" x="125.59999999999999" y="124.58770614692655"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="en-uk" width="16" height="8"/>
+        <image name="es" width="16" height="11"/>
+        <image name="fr" width="16" height="11"/>
+        <image name="pt" width="16" height="11"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

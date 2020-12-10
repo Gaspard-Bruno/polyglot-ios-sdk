@@ -24,6 +24,23 @@ class PolyExtensions {
     }
     
     class func getFile(language: String) -> [String: String]? {
+        
+        if let file = isLanguageAvailable(language) {
+            return file
+        } else {
+            let arrayLanguage = language.components(separatedBy: "-")
+            if arrayLanguage.count > 1 {
+                for lang in arrayLanguage {
+                    if let file = isLanguageAvailable(lang) {
+                        return file
+                    }
+                }
+            }
+        }
+        return nil
+    }
+    
+    private class func isLanguageAvailable(_ language: String) -> [String: String]? {
         return NSDictionary(contentsOf: PolyExtensions.getFileURL(language: language)) as? [String: String]
     }
 }

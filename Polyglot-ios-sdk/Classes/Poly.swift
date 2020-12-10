@@ -44,4 +44,13 @@ public class Poly: NSObject {
         return translation[key] ?? key
     }
     
+    public func changeLanguage(_ language: String) {
+        if PolyExtensions.getFile(language: language) != nil {
+            defaultLanguage = language
+        } else {
+            print("[Polyglot] Language not found")
+            return
+        }
+    }
+    
 }

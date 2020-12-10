@@ -13,6 +13,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var translationLabel: UILabel!
     
+    @IBOutlet weak var portugueseButton: UIButton!
+    @IBOutlet weak var frenchButton: UIButton!
+    @IBOutlet weak var spanishButton: UIButton!
+    @IBOutlet weak var englishButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,6 +30,22 @@ class ViewController: UIViewController {
 
     @IBAction func updateTranslation(_ sender: Any) {
         translationLabel.text = "landing.sdk.ios".poly()
+    }
+    
+    @IBAction func translateToPortuguese(_ sender: UIButton) {
+        Poly.manager.changeLanguage("pt")
+    }
+    
+    @IBAction func translateToFrench(_ sender: UIButton) {
+        Poly.manager.changeLanguage("fr")
+    }
+    
+    @IBAction func translateToSpanish(_ sender: UIButton) {
+        Poly.manager.changeLanguage("es")
+    }
+    
+    @IBAction func translateToEnglish(_ sender: UIButton) {
+        Poly.manager.changeLanguage("en-us")
     }
 }
 
