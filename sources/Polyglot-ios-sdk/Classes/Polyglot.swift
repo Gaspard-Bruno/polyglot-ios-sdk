@@ -12,7 +12,7 @@ public class Polyglot {
     
     private var apiBaseUrl: String
 
-    public required init(key: String, defaultLanguage: String, apiBaseUrl: string) {
+    public required init(key: String, defaultLanguage: String, apiBaseUrl: String) {
         self.apiBaseUrl = apiBaseUrl
         populateTranlationFiles(key: key)
     }
