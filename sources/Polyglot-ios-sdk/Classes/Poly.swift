@@ -9,10 +9,10 @@ import UIKit
 
 typealias LocalizedDictionary = [String: String]
 
-private let infoMarker = "🦋"
-private let debugMarker = "🦎"
-private let warningMarker = "⚠️"
-private let errorMarker = "❌"
+let infoMarker = "🦋"
+let debugMarker = "🦎"
+let warningMarker = "⚠️"
+let errorMarker = "❌"
 
 
 public class Poly: NSObject {
