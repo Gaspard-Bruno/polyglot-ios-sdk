@@ -19,7 +19,7 @@ public class Polyglot {
         populateTranlationFiles(key: key)
     }
     
-    public func populateTranlationFiles(key: String) {
+    public func populateTranlationFiles(key: String, for apiBaseUrl: String? = nil) {
         
         let urlString =  "\(apiBaseUrl)/\(key)/all.json" // multi language
                 
