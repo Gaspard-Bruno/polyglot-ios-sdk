@@ -7,20 +7,26 @@
 
 import UIKit
 
-public class Polyglot {
+typealias PolyglotResponse = [String: [String: String]]
 
-    public required init(key: String, defaultLanguage: String) {
+public class Polyglot {
+    
+    
+    private var apiBaseUrl: String
+
+    public required init(key: String, defaultLanguage: String, apiBaseUrl: String) {
+        self.apiBaseUrl = apiBaseUrl
         populateTranlationFiles(key: key)
     }
     
-    public func populateTranlationFiles(key: String, for apiBaseUrl: String? = nil) {
+    public func populateTranlationFiles(key: String) {
         
-        let baseUrl = "https://cdn.polyglot.cloud/c81e728d9d4c2f636f067f89cc14862c"
-        let urlString =  "\(apiBaseUrl ?? baseUrl)/\(key)/all.json" // multi language
+        let urlString =  "\(apiBaseUrl)/\(key)/all.json" // multi language
                 
         let url = URL(string: urlString)
         var requrl = URLRequest(url: url!)
-        requrl.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "content_type")
+        requrl.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        requrl.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Accept")
         requrl.httpMethod = "get"
         
         let task = URLSession.shared.dataTask(with: requrl) { [self] (data, response, error) in
@@ -29,9 +35,13 @@ public class Polyglot {
                 guard let data = data else {
                     throw(error!)
                 }
+                
+                let decodedBody =  String(data: data, encoding: .utf8) ?? ""
+                let encodedData = Data(decodedBody.utf8)
+                
                 let decoder = JSONDecoder()
-                if let responseData = try? decoder.decode([String: [String: String]].self, from: data) {
-                    print(responseData)
+                if let responseData = try? decoder.decode(PolyglotResponse.self, from: encodedData) {
+                    
                     DispatchQueue.main.async {
                         for language in responseData.keys {
                             createPlist(language: language, translations: responseData[language]!)
@@ -39,12 +49,12 @@ public class Polyglot {
                     }
                     
                 } else if let error = try? decoder.decode(PolyError.self, from: data) {
-                    print(error)
+                    print("\(errorMarker) \(error)")
                 } else {
                 }
                 
             } catch {
-                print("error-->",error.localizedDescription)
+                print("\(errorMarker) error-->",error.localizedDescription)
             }
         }
         task.resume()
@@ -60,8 +70,8 @@ public class Polyglot {
         if !fileManager.fileExists(atPath: path) {
             
             let someData = NSDictionary(dictionary: translations)
-            let isWritten = someData.write(toFile: path, atomically: true)
-            print("is the file created: \(isWritten)")
+            let _ = someData.write(toFile: path, atomically: true)
+          
             
         } else {
             do {
@@ -69,7 +79,7 @@ public class Polyglot {
                 let someData = NSDictionary(dictionary: translations)
                 someData.write(toFile: path, atomically: true)
             } catch {
-                print(error)
+                print("\(errorMarker) \(error)")
             }
             
         }
