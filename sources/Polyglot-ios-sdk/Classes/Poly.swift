@@ -9,6 +9,12 @@ import UIKit
 
 typealias LocalizedDictionary = [String: String]
 
+private let infoMarker = "🦋"
+private let debugMarker = "🦎"
+private let warningMarker = "⚠️"
+private let errorMarker = "❌"
+
+
 public class Poly: NSObject {
     
     public static var manager = Poly()
@@ -26,7 +32,9 @@ public class Poly: NSObject {
     }
     
     
-    public func loadTranslations(key: String, defaultLanguage language: String, apiBaseUrl: String = "https://cdn.polyglot.cloud/c81e728d9d4c2f636f067f89cc14862c") {
+    public func loadTranslations(key: String,
+                                 defaultLanguage language: String,
+                                 apiBaseUrl: String = "https://cdn.polyglot.cloud/c81e728d9d4c2f636f067f89cc14862c") {
         defaultLanguage = language
         polyglot = Polyglot(key: key, defaultLanguage: language, apiBaseUrl: apiBaseUrl)
     }
@@ -37,7 +45,7 @@ public class Poly: NSObject {
         if let file = PolyExtensions.getFile(language: language ?? currentLanguage) {
             translation = file
         } else {
-            print("[Polyglot] File Not Found")
+            print("[Polyglot \(errorMarker)] File Not Found")
             return key
         }
 
@@ -48,7 +56,7 @@ public class Poly: NSObject {
         if PolyExtensions.getFile(language: language) != nil {
             defaultLanguage = language
         } else {
-            print("[Polyglot] Language not found")
+            print("[Polyglot \(errorMarker)] Language not found")
             return
         }
     }

@@ -34,7 +34,7 @@ public class Polyglot {
                 }
                 let decoder = JSONDecoder()
                 if let responseData = try? decoder.decode([String: [String: String]].self, from: data) {
-                    print(responseData)
+                
                     DispatchQueue.main.async {
                         for language in responseData.keys {
                             createPlist(language: language, translations: responseData[language]!)
@@ -42,12 +42,12 @@ public class Polyglot {
                     }
                     
                 } else if let error = try? decoder.decode(PolyError.self, from: data) {
-                    print(error)
+                    print("\(errorMarker) \(error)")
                 } else {
                 }
                 
             } catch {
-                print("error-->",error.localizedDescription)
+                print("\(errorMarker) error-->",error.localizedDescription)
             }
         }
         task.resume()
@@ -64,7 +64,7 @@ public class Polyglot {
             
             let someData = NSDictionary(dictionary: translations)
             let isWritten = someData.write(toFile: path, atomically: true)
-            print("is the file created: \(isWritten)")
+          
             
         } else {
             do {
@@ -72,7 +72,7 @@ public class Polyglot {
                 let someData = NSDictionary(dictionary: translations)
                 someData.write(toFile: path, atomically: true)
             } catch {
-                print(error)
+                print("\(errorMarker) \(error)")
             }
             
         }
