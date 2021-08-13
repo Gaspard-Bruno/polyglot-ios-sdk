@@ -13,9 +13,10 @@ public class Polyglot {
         populateTranlationFiles(key: key)
     }
     
-    public func populateTranlationFiles(key: String) {
+    public func populateTranlationFiles(key: String, for apiBaseUrl: String? = nil) {
         
-        let urlString = "https://cdn.polyglot.cloud/c81e728d9d4c2f636f067f89cc14862c/\(key)/all.json" // multi language
+        let baseUrl = "https://cdn.polyglot.cloud/c81e728d9d4c2f636f067f89cc14862c"
+        let urlString =  "\(apiBaseUrl ?? baseUrl)/\(key)/all.json" // multi language
                 
         let url = URL(string: urlString)
         var requrl = URLRequest(url: url!)
