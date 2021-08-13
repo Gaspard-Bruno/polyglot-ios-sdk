@@ -28,7 +28,7 @@ public class Poly: NSObject {
     
     public func loadTranslations(key: String, defaultLanguage language: String, apiBaseUrl: String = "https://cdn.polyglot.cloud/c81e728d9d4c2f636f067f89cc14862c") {
         defaultLanguage = language
-        polyglot = Polyglot(key: key, defaultLanguage: language, apiBaseUrl)
+        polyglot = Polyglot(key: key, defaultLanguage: language, apiBaseUrl: apiBaseUrl)
     }
     
     public func getTranslation(key: String, language: String?) -> String {
