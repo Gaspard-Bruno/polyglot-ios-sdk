@@ -19,7 +19,7 @@ public class Polyglot {
         populateTranlationFiles(key: key)
     }
     
-    public func populateTranlationFiles(key: String, for apiBaseUrl: String? = nil) {
+    public func populateTranlationFiles(key: String) {
         
         let urlString =  "\(apiBaseUrl)/\(key)/all.json" // multi language
                 
@@ -35,8 +35,12 @@ public class Polyglot {
                 guard let data = data else {
                     throw(error!)
                 }
+                
+                let decodedBody =  String(data: data, encoding: .utf8) ?? ""
+                let encodedData = Data(decodedBody.utf8)
+                
                 let decoder = JSONDecoder()
-                if let responseData = try? decoder.decode(PolyglotResponse.self, from: data) {
+                if let responseData = try? decoder.decode(PolyglotResponse.self, from: encodedData) {
                     
                     DispatchQueue.main.async {
                         for language in responseData.keys {
@@ -66,7 +70,7 @@ public class Polyglot {
         if !fileManager.fileExists(atPath: path) {
             
             let someData = NSDictionary(dictionary: translations)
-            let isWritten = someData.write(toFile: path, atomically: true)
+            let _ = someData.write(toFile: path, atomically: true)
           
             
         } else {
