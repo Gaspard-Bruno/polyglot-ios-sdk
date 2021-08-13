@@ -7,6 +7,8 @@
 
 import UIKit
 
+typealias PolyglotResponse = [String: [String: String]]
+
 public class Polyglot {
     
     
@@ -23,7 +25,8 @@ public class Polyglot {
                 
         let url = URL(string: urlString)
         var requrl = URLRequest(url: url!)
-        requrl.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "content_type")
+        requrl.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        requrl.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Accept")
         requrl.httpMethod = "get"
         
         let task = URLSession.shared.dataTask(with: requrl) { [self] (data, response, error) in
@@ -33,8 +36,8 @@ public class Polyglot {
                     throw(error!)
                 }
                 let decoder = JSONDecoder()
-                if let responseData = try? decoder.decode([String: [String: String]].self, from: data) {
-                
+                if let responseData = try? decoder.decode(PolyglotResponse.self, from: data.encode(to: String.Encoding.utf8)) {
+                    
                     DispatchQueue.main.async {
                         for language in responseData.keys {
                             createPlist(language: language, translations: responseData[language]!)
