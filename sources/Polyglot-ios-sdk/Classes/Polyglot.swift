@@ -36,7 +36,7 @@ public class Polyglot {
                     throw(error!)
                 }
                 let decoder = JSONDecoder()
-                if let responseData = try? decoder.decode(PolyglotResponse.self, from: data.encode(to: String.Encoding.utf8)) {
+                if let responseData = try? decoder.decode(PolyglotResponse.self, from: data) {
                     
                     DispatchQueue.main.async {
                         for language in responseData.keys {
