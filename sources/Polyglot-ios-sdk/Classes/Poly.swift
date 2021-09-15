@@ -61,4 +61,15 @@ public class Poly: NSObject {
         }
     }
     
+    public func availableLanguages() -> [String] {
+        
+        if let tr = translations {
+            
+            return Array(tr.keys)
+            
+        }
+        
+        return []
+    }
+    
 }
